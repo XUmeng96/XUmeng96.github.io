@@ -23,7 +23,7 @@ SEOTitle: LANGEAGE !!
 email: mengchul201710@163.com
 description: ""
 keyword: ""
-header-img: img/header_img/home-bg-2-dark.JPG
+header-img: img/header_img/home-bg-2-dark.jpg
 signature: true #show signature
 signature-img: img/signature/xu.jpg 
 
@@ -178,5 +178,5 @@ sitemap:
 deploy:
   type: git
   repository: https://github.com/XUmeng96/XUmeng96.github.io.git
-  branch: dev
+  branch: master
   user: XUmeng96
