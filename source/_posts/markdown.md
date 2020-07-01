@@ -1,7 +1,15 @@
 ---
-title: article title
+title: Markdown learning
 date: 2020-06-29 11:11:00
+header-img: "bg.jpg"
 tags:
+- Markdown
+- learing
+catagories:
+- Markdown
+---
+> > hexo项目中public文件夹是hexo g生成的，源文件在主题中
+> 
 ---
 ## 这是一个练习hexo建博客的测试  
 -----------------

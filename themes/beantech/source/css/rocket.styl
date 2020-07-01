@@ -6,8 +6,12 @@
   visibility: hidden;
   width: 42px;
   height: 43px;
-  background: url(images/ironman.png) no-repeat 50% 0;
-  opacity: 0;
+  background: url(images/topa.png) no-repeat 100% 0;
+  opacity: 0; 
+  background-size: cover; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
   -webkit-transition: visibility 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -webkit-transform 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
   -moz-transition: visibility 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -moz-transform 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
   transition: visibility 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335), transform 0.6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
@@ -18,7 +22,11 @@
   display: block;
   margin-top: 48px;
   height: 14px;
-  background: url(images/ironman.png) no-repeat 50% -20px;
+  background: url(images/topb.png) no-repeat 100% 0;
+  background-size: cover; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
   opacity: .5;
   -webkit-transition: -webkit-transform .2s;
   -moz-transition: -moz-transform .2s;
@@ -27,9 +35,17 @@
   -moz-transform-origin: 50% 0;
   transform-origin: 50% 0; }
 #rocket:hover {
-  background-position: 50% -44px; }
+  background-position: 100% 0;
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;  }
 #rocket:hover i {
-  background-position: 50% 100%;
+  background-position: 100% 100%;
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
   -webkit-animation: flaming .7s infinite;
   -moz-animation: flaming .7s infinite;
   animation: flaming .7s infinite; }
@@ -37,7 +53,11 @@
   visibility: visible;
   opacity: 1; }
 #rocket.launch {
-  background-position: 50% -44px;
+  background-position: 100% 0;
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
   opacity: 0;
   -webkit-transform: translateY(-500px);
   -moz-transform: translateY(-500px);
@@ -45,7 +65,11 @@
   transform: translateY(-500px);
   pointer-events: none; }
 #rocket.launch i {
-  background-position: 50% 100%;
+  background-position: 100% 100%;
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
   -webkit-transform: scale(1.4, 3.2);
   -moz-transform: scale(1.4, 3.2);
   transform: scale(1.4, 3.2); } 
